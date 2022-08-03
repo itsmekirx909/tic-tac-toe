@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0 ; box-sizing: border-box;}
+body{text-align: center; background-color: #091921;}
+
+.heading{border-bottom: 2px solid #215e65;width: 30%; margin: 0 auto; color: #215e65; font-size: 70px;}
+
+.butn{margin: 20px 0px; width: 100px;height: 40px; padding: 8px 30px;; border-radius: 25px; border: none;box-shadow: 0px 16px 24px 2px rgba(0,0,0,0.14) , 0px 6px 30px 5px rgba(0,0,0,0.12) , 0px 8px 10px -7px rgba(0,0,0,0.2);  background:linear-gradient(90deg, #0162c8, #55e7fc); color: white;transition: ease-in 0.5s;}
+.butn:hover{width: 200px; background:linear-gradient(90deg, #0159b8, #4ed6eb); cursor: pointer;}
+
+#board{width: 450px; height: 450px;  
+    margin: 0 auto; margin-top: 30px;
+display: flex; flex-wrap: wrap;}
+
+.hide{display: none;}
+.show{display: contents;}
+
+.row{display: flex;}
+
+.tiles{height: 145px; width: 145px; font-size: 100px; color: white;
+    display: flex;
+justify-content: center; align-items: center; cursor: pointer; transition: ease-in-out 0.3s;}
+.tiles:hover{background-color: #127681;}
+
+.pointerNull{pointer-events: none;}
+
+.btnMove{font-size: xx-large; cursor: pointer; margin: 30px; width: 100px; padding: 10px 0px; border: none; background-color: rgb(63, 175, 63);color: white; transition: 0.5s;}
+.btnMove:hover{background-color: rgb(43, 126, 43); transform: scale(1.15); z-index: 100;}
+
+.hl{border-bottom: 4px solid #215e65;}
+
+.vl{border-right: 4px solid #215e65;}
+
+.win{background-color: rgb(8, 146, 8); color: white;}
+.win2{background-color:rgb(160, 8, 8); color: white;}
+
+.reset{height: 100vh ;background-color: #215e65; opacity: 0.9; padding-top: 150px}
+.result{ display: flex;}
+.bll{position: absolute;top: 25%;text-align: center;}
+.winScreen{font-size: 100px; border-bottom: 5px solid white; color: white ;width: 30%; margin: 0 auto;}
+
+.restartBtn{margin: 20px 0px;height: 50px; width: 200px; padding: 8px 30px; border-radius: 25px; border: none;box-shadow: 0px 16px 24px 2px rgba(0,0,0,0.14) , 0px 6px 30px 5px rgba(0,0,0,0.12) , 0px 8px 10px -7px rgba(0,0,0,0.2);  background:linear-gradient(90deg, #0162c8, #55e7fc); color: white;transition: ease-in 0.5s;}
+.restartBtn:hover{width: 300px; background:linear-gradient(90deg, #0159b8, #4ed6eb); cursor: pointer;}
+
