@@ -12,16 +12,16 @@
 
 <body>
 
-        <h1 class="heading" id="heading">Tic tac toe</h1>
+        <h1 class="heading animate" id="heading">Tic tac toe</h1>
 
-        <button class="butn" onclick="start(this)"> Start </button>
+        <button class="butn animate" onclick="start(this)"> Start </button>
 
         <!-- board -->
 
-        <div class="hide animation1" id="boardToggle">
-                <table id="board" class="board pointerNull">
+        <div class="hide" id="boardToggle">
+                <table id="board" class="board animate2 pointerNull">
                         <tr class="row">
-                                <td class="tiles hl vl" id="t0" onclick="move(this)"></td>
+                                <td class="tiles hl vl " id="t0" onclick="move(this)"></td>
                                 <td class="tiles hl vl " id="t1" onclick="move(this)"></td>
                                 <td class="tiles hl    " id="t2" onclick="move(this)"></td>
                         </tr>
@@ -46,8 +46,8 @@
 
         <!-- win/lose  -->
 
-    <div class="reset hide animation2" id="wholeReset">   
-        <div class="result">
+    <div class="reset hide animate3" id="wholeReset">   
+        <div class="result ">
 
 <h1 class="winScreen hide" id="winScreen">You Win</h1>
 

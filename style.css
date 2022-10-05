@@ -40,3 +40,38 @@ justify-content: center; align-items: center; cursor: pointer; transition: ease-
 .restartBtn{margin: 20px 0px;height: 50px; width: 200px; padding: 8px 30px; border-radius: 25px; border: none;box-shadow: 0px 16px 24px 2px rgba(0,0,0,0.14) , 0px 6px 30px 5px rgba(0,0,0,0.12) , 0px 8px 10px -7px rgba(0,0,0,0.2);  background:linear-gradient(90deg, #0162c8, #55e7fc); color: white;transition: ease-in 0.5s;}
 .restartBtn:hover{width: 300px; background:linear-gradient(90deg, #0159b8, #4ed6eb); cursor: pointer;}
 
+.animate{animation: animate 1s;}
+
+@keyframes animate{
+    0%{
+        transform: scale(0);
+    }
+    60%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.animate2{animation: animate2 1s;}
+
+@keyframes animate2{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.animate3{animation: animate3 2s;}
+
+@keyframes animate3{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
